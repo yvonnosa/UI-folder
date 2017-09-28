@@ -1,0 +1,220 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  border:0px;
+}
+
+body{
+	background-image: url(../images/back.jpg);
+	background-position: center;
+   font-family: verdana;
+
+}
+h2{
+	color:grey;
+	text-align: center;
+  font-family: verdana;
+}
+.form1 form{
+	margin-top: 5%;
+  background-color: rgba(0, 0, 0, 0.84);
+	width: 30%;
+	padding: 20px;
+}
+form input{
+	background-color: transparent;
+	border: solid 2px cyan;
+	padding: 10px 60px 10px 5px;
+
+}
+.form-control{
+  color:#fff;
+}
+.button {
+  border-radius: 4px;
+  background-color:red;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding:10px 60px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.right{
+  float: right;
+
+}
+.form2 form{
+  margin-top: 15%;
+  background-color: rgba(0, 0, 0, 0.84);
+  width: 40%;
+  padding: 20px;
+}
+.form2 form input{
+  background-color: transparent;
+  border: solid 2px cyan;
+  padding: 10px 60px 10px 5px;
+
+}
+.form2 h2{
+  padding-bottom: 7ujilujilkhpx;
+}
+.form-control{
+  color:#fff;
+}
+
+.ton .button {
+  border-radius: 4px;
+  background-color:red;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding:10px 60px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 25px auto;
+}
+
+.ton .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.ton .button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.ton .button:hover span {
+  padding-right: 25px;
+}
+
+.ton .button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.top{
+  margin-bottom: 20px;
+}
+.full{
+  margin-top: 20px;
+
+}
+
+.reg button{
+   background-color: cyan;
+   color: black;
+   border-radius: 25px;
+   border-color: red;
+   padding: 15px 20px ;
+   text-align: center;
+   cursor: pointer;
+   font-weight: bold;
+}
+.reg {
+   text-align: center;
+   margin-top: 5%;
+}
+.bako{
+  background-color: black;
+  width: 800px;
+  height: 420px;
+  background-color: rgba(0, 0, 0, 0.72);
+  margin-top: 8%;
+}
+
+#list h2{
+  color: cyan;
+  font-weight: normal;
+  float: left;
+  padding-top: 30px;
+  padding-left: 30px;
+
+}
+#click button{
+  float: right;
+  margin-right: 3%;
+  margin-top: 30px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: cyan;
+
+
+}
+.logout{
+  color: cyan;
+  float: right;
+  padding-right: 30px;
+  padding-top: 30px;
+  font-size: 15px;
+  font-weight: normal;
+  font-family: verdana;
+}
+.logout a{
+  cursor: pointer;
+  text-decoration-line: none;
+   color: cyan;
+}
+label{
+  color: white;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.title label{
+  color: white;
+  float: left;
+  padding-bottom: 5px;
+}
+.title{
+  margin-bottom: 25px;
+}
+.bakoform{
+  padding-top: 12%;
+
+}
+.pub{
+  background-color: cyan;
+  color: black;
+  padding: 10px 20px;
+  margin-top: 20px;
+  float: left;
+  cursor: pointer;
+ /* margin-left: 20px;*/
+}
